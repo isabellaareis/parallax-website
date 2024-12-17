@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+
+    <section class="parallax-home">
+        <img src="home_src/moon.png" alt="" id="moon">
+        <img src="home_src/sky.png" alt="" id="">
+        <img src="home_src/water.png" alt="" id="water">
+        <img src="home_src/center-city.png" alt="" id="city">
+        <img src="home_src/right-city.png" alt="" id="right-city">
+        <img src="home_src/left-city.png" alt="" id="left-city">
+        <img src="home_src/train.png" alt="" id="train">
+        <img src="home_src/rail.png" alt="" id="rail">
+        <h1 id="text">ParallaxWebsite</h1>
+        <img src="home_src/hill-left-1.png" alt="" id="hill-left">
+        <img src="home_src/hill-right-1.png" alt="" id="hill-right">
+    </section>
+
+    <section class="about" id="about">
+        <div class="info-box">
+            <h2>Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui aspernatur nihil ratione, dolorem eveniet
+                impedit culpa voluptas pariatur, similique voluptatem, delectus sed soluta blanditiis harum ex omnis
+            </p>
+        </div>
+        <a href="#" class="btn">Ler Mais!</a>
+        <img src="about_src/waterfall.png" id="waterfall" class="about-waterfall">
+        <img src="about_src/desert-sky.png" alt="" class="desert-sky">
+        <img src="about_src/desert-moon.png" alt="" id="desert-moon">
+        <img src="about_src/desert-NoSky.png" alt="" class="desert-NoSky">
+        <img src="about_src/desert-rock.png" alt="" class="desert-rock">
+        <img src="about_src/water.png" alt="" class="water">
+        <img src="about_src/man.png" alt="" id="man">
+        <img src="about_src/grass.png" alt="" class="grass">
+
+        <div id="progress">
+            <span id="progress-value">
+                <i class='bx bx-chevrons-up'></i>
+            </span>
+        </div>
+
+    </section>
+
+    <section class="products" id="products">
+        <h2>Nossos Produtos</h2>
+        <div class="product-card">
+            <div class="card">
+                <img src="product_src/Salmon.png" alt="">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Salmão</h3>
+                        <span>R$120.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, labore?</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="product_src/Swordfish.png" alt="">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Peixe espada</h3>
+                        <span>R$120.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, labore?</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="product_src/Tuna.png" alt="">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Atum</h3>
+                        <span>R$120.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, labore?</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="product_src/Snapper.png" alt="">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Pargo</h3>
+                        <span>R$120.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, labore?</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
